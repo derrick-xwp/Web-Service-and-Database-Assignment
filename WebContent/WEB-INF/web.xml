@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <display-name>School</display-name>
+    <servlet>
+        <servlet-name>sqlquery</servlet-name>
+        <servlet-class>com.jbit.web.sqlquery</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sqlquery</servlet-name>
+        <url-pattern>/sqlquery</url-pattern>
+    </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file>init.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
